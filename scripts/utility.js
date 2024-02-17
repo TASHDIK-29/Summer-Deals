@@ -29,8 +29,8 @@ function calculateTotalById(elementId){
     
     cost += expectedPrice;
     // update Total
-    document.getElementById('total-price').innerText = cost ;
-    document.getElementById('final-price').innerText = cost ;
-    
+    document.getElementById('total-price').innerText = cost.toFixed(2) ;
+    document.getElementById('final-price').innerText = cost.toFixed(2) ;
+    document.getElementById('discount').innerText = '0';
 
 }
