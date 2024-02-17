@@ -6,6 +6,8 @@ function selectCard(id){
     addProductById(id);
     calculateTotalById(id);
     
+    const purchaseButtonElement = document.getElementById('Purchase-btn');
+    purchaseButtonElement.removeAttribute('disabled');
 }
 
 function applyCoupon(){
