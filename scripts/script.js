@@ -39,3 +39,8 @@ function applyCoupon(){
     }
     couponField.value = '';
 }
+
+
+function myFunction() {
+    location.replace("https://e-ticketingtd.netlify.app/")
+  }
